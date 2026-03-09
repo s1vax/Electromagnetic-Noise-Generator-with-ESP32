@@ -7,6 +7,10 @@
 
 ---
 
+### ⚠️ ***Legal Information***
+
+---
+
 ### 🛒 Things we need
 First, we need the following components to carry out the project:
 - `ESP32-WROOM-32`
