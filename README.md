@@ -16,3 +16,4 @@ First, we need the following components to carry out the project:
 - `ESP32-WROOM-32`
 - `USB Cable` or `Litium Battery` for the power of the ESP32
 - 'nrf24l01 anthena'
+- 'oled screen'
