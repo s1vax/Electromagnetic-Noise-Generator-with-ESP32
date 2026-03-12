@@ -7,7 +7,7 @@
 
 ---
 
-### ⚠️ ***Legal Information:*** Este proyecto tiene fines educativos. No promueve el uso ilegal.
+### ⚠️ ***Legal Information:*** Este proyecto solo tiene fines educativos. No promueve el uso ilegal e indebido.
 
 ---
 
@@ -20,3 +20,5 @@ First, we need the following components to carry out the project:
 - `5 buttons`
 - `Led Monitor`
 - `Jumpers wire`
+- `Protoboard (for testing in first placer)`
+- `PCB perforda (para implementacion final y portabilidad)`
