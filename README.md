@@ -66,7 +66,7 @@ https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
      </p>
 
 - La siguiente imagen describe el pinmap de las placas nrf24L01 (en sus dos modelos)
- <p align="center">
-<img width="750" height="600" alt="image" src="https://github.com/user-attachments/assets/c7a51ea7-fc47-4d03-b2b8-3a622ed1e1b9" />
-</p>
+     <p align="center">
+     <img width="750" height="600" alt="image" src="https://github.com/user-attachments/assets/c7a51ea7-fc47-4d03-b2b8-3a622ed1e1b9" />
+     </p>
 
