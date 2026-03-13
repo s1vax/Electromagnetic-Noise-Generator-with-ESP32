@@ -29,11 +29,11 @@ First, we need the following components to carry out the project:
 # 🔎 Step by Step
 ### 1. 📟 ESP32 Drivers
 En primer lugar, es escencial que nuestra PC pueda reconocer a nuestra ESP32 en sus puertos de I/O. 
-- Para ello, descargamos el archivo `` del siguiente linke
+- Para ello, descargamos el archivo `` del siguiente link: https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads
 - Luego, debemos descomprimir la carpeta que nos aparacera
-- Una vez hecho eso, nos iremos a `Device
-
-https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads
+- Una vez hecho lo anterior, conectamos nuestra `ESP32` y nos iremos a `Device Manager`, y haremos click derecho en nuestro equipo principal (PC, de donde derivan todas las demas listas de dispositivos conectados), siguiente a ello, le damos click en `Add drivers`
+-  En esta opcion, apretaremos en los tres puntitos, y aqui deberemos de buscar la ubicacion de la carpeta descomprimida que hemos descargado del link proporcionado
+-  Nos tendra que aparecer que los drivers se añadieron correctamente, y para confirmar, nuestra ESP32 debera salir en las listas desplegables `Other devices` o en `Ports (COM & LPT)`, junto al puerto que le asigno nuestra PC
 
 ### 2. ⚖️ Existen 2 versiones del proyecto, ¿cual vas a elegir?
 
