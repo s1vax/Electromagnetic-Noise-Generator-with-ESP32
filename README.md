@@ -54,8 +54,8 @@ https://mega.nz/folder/OQpDnLgY#gKpLGsnu_np7O00hVTvWxg
 https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
 
 ### 5. ⛓️‍💥 Connections
-👉 ***En esta parte es donde debemos prestar muchisima atencion. Primero veremos las conexiones del ESP32 con las placas nrf24L01 + Antenas (son las mismas conexiones, sea cual sea la version del proyecto que hayamos elegido).***
-- Debemos verificar la cantidad de pines y el modelo de nuestras placas (ESP32 y nrf24L01)
+👉 ***En esta parte es donde debemos prestar muchisima atencion***
+- Primero, debemos verificar la cantidad de pines y el modelo de nuestras placas (ESP32 y nrf24L01)
 - Las siguientes imagenes describen el pinmap de las placas ESP32 mas comunes:
    - *ESP32-WROOM-32 (38 Pins)*
      <p align="center">
