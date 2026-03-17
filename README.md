@@ -76,16 +76,23 @@ https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
    - Para la version *Proyecto completo*:
      
    - Para la version *Proyecto de rapida implementeacion*:
-       ### VSPI -->
-          □ MOSI
-          □ MISO
-          □ CE
-          □ CS
-          □ SCK
-       ### HSPI -->
-          □ MOSI
-          □ MISO
-          □ CE
-          □ CS
-          □ SCK
+
+          VSPI (para una de las placas nrf24L01)
+               □ MOSI
+               □ MISO
+               □ CE
+               □ CS o CNS
+               □ SCK
+               □ VCC
+               □ GND
+
+          
+         HSPI (para la otra placa nrf24L01)
+               □ MOSI
+               □ MISO
+               □ CE
+               □ CS o CNS
+               □ SCK
+               □ VCC
+               □ GND
 
