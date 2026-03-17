@@ -76,13 +76,13 @@ https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
    - Para la version *Proyecto completo*:
      
    - Para la version *Proyecto de rapida implementeacion*:
-       # VSPI -->
+       ◇ VSPI -->
           □ MOSI
           □ MISO
           □ CE
           □ CS
           □ SCK
-       # HSPI -->
+       ◇ HSPI -->
           □ MOSI
           □ MISO
           □ CE
