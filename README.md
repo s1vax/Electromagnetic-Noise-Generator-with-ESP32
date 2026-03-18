@@ -77,23 +77,32 @@ https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
        Parecido a lo de abajo, pines de oled
      
    - Para la version *Proyecto de rapida implementeacion*:
+      - Serial Peripheral Interface of ESP32 (cualquier version)
 
-          VSPI (para una de las placas nrf24L01)
-               □ MOSI
-               □ MISO
-               □ CE
-               □ CS o CNS
-               □ SCK
-               □ VCC
-               □ GND
+         - HSPI (Generalmente se usa como bus SPI principal de alta velocidad)
+ 
 
-          
-         HSPI (para la otra placa nrf24L01)
-               □ MOSI
-               □ MISO
-               □ CE
-               □ CS o CNS
-               □ SCK
-               □ VCC
-               □ GND
 
+      | Pin nrf24L01 (1 de 2 placa) | Pin ESP32 |
+      | :--- | :---: |
+      | **MOSI** | Au | 
+      | **MISO** | So |
+      | **SCK** | Au |
+      | **CE** | Au |
+      | **CS o CNS** | Au |
+      | **VCC** | Au |
+      | **GND** | Au |
+      
+       - VSPI (Segundo bus independiente, ideal para separar dispositivos y evitar conflictos de velocidad.)
+ 
+
+
+      | Pin nrf24L01 (2 de 2 placa) | Pin ESP32 |
+      | :--- | :---: |
+      | **MOSI** | Au | 
+      | **MISO** | So |
+      | **SCK** | Au |
+      | **CE** | Au |
+      | **CS o CNS** | Au |
+      | **VCC** | Au |
+      | **GND** | Au |
