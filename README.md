@@ -39,7 +39,7 @@ En primer lugar, es escencial que nuestra PC pueda reconocer a nuestra ESP32 en 
 
 - 1️⃣ ***Proyecto completo*** --> Incluye menu de seleccion (navegable con botones que deberan ir colocados en la PCB) de Jamming para diferentes objetivos (Vulnerabilidades Iphone, Analizador de Señales, Camaras, entre otras), un led indicador de accion (indica cuando el dispositivo esta realizando una accion jamming), tambien una mayor portabilidad dado que tiene una bateria de litio incorporada, y una PCB, lugar en donde iran ensamblados todos los componentes del dispositivo.
 
-- 2️⃣ ***Proyecto de rapida implementacion*** --> Incluye un uso de pocos materiales para su implementacion. No tiene menu de seleccion de objetivos, por lo que al activarse, afecta a toda la frecuencia de 2.4 GHz en su alcance. Puede ser un proyecto fijo (si se aplica en protoboard + PC) o de portabilidad (por si queremos realizar este mismo proyecto en una PCB + bateria portatil; sin embargo, aqui ya se tardaria mas tiempo debido a las soldaduras y conexiones que hay que hacer para la PCB, a diferencia de solo conectar cables en una protoboard). Como dato extra, si se desea un dispositivo BlueJammer, el mas pequeño posible, el dispositivo del `proyecto de rapida implementacion portatil` es la mejor opcion, ya que es mucho mas chico que el del `proyecto completo` (debido a que contiene pantalla, botones, etc)
+- 2️⃣ ***Proyecto básico*** --> Incluye un uso de pocos materiales para su implementacion. No tiene menu de seleccion de objetivos, por lo que al activarse, afecta a toda la frecuencia de 2.4 GHz en su alcance. Puede ser un proyecto fijo (si se aplica en protoboard + PC) o de portabilidad (por si queremos realizar este mismo proyecto en una PCB + bateria portatil; sin embargo, aqui ya se tardaria mas tiempo debido a las soldaduras y conexiones que hay que hacer para la PCB, a diferencia de solo conectar cables en una protoboard). Como dato extra, si se desea un dispositivo BlueJammer, el mas pequeño posible, el dispositivo del `proyecto de rapida implementacion portatil` es la mejor opcion, ya que es mucho mas chico que el del `proyecto completo` (debido a que contiene pantalla, botones, etc)
 
 ### 3. 📜 Una vez elegida la version, ¿que necesitamos para empezar a construir nuestro BlueJammer en cada caso?
 
@@ -50,7 +50,7 @@ En esta parte tenemos dos paginas web que se encargaran del flasheo y firmware d
 - 1️⃣ Para la version *Proyecto completo*: 
 https://mega.nz/folder/OQpDnLgY#gKpLGsnu_np7O00hVTvWxg
 
-- 2️⃣ Para la version *Proyecto de rapida implementeacion*:
+- 2️⃣ Para la version *Proyecto básico*:
 https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
 
 ### 5. ⛓️‍💥 Connections
@@ -138,7 +138,7 @@ https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
       | **Boton 4** | Au |
       | **Boton 5** | Au |
      
-   - 2️⃣ Para la version *Proyecto de rapida implementeacion*:
+   - 2️⃣ Para la version *Proyecto básico*:
       - 📛 Serial Peripheral Interface of ESP32 (pines para las placas de antena, y para cualquier version de los ESP32)
       
         &nbsp;&nbsp; --> HSPI (Generalmente se usa como bus SPI principal de alta velocidad)
