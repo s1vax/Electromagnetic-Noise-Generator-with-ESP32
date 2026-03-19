@@ -43,6 +43,10 @@ En primer lugar, es escencial que nuestra PC pueda reconocer a nuestra ESP32 en 
 
 ### 3. 📜 Una vez elegida la version, ¿que necesitamos para empezar a construir nuestro BlueJammer en cada caso?
 
+- 1️⃣ ***Proyecto completo***
+
+- 2️⃣ ***Proyecto basico***
+
 ### 4. 🛠️ Flash & Firmware
 
 En esta parte tenemos dos paginas web que se encargaran del flasheo y firmware de la placa, es decir, aplicaran el codigo necesario para que el ESP32 ejecute las acciones jamming.
