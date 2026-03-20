@@ -44,6 +44,15 @@ En primer lugar, es escencial que nuestra PC pueda reconocer a nuestra ESP32 en 
 ### 3. 📜 Una vez elegida la version, ¿que necesitamos para empezar a construir nuestro BlueJammer en cada caso?
 
 - 1️⃣ ***Proyecto completo***
+    - `Oled Screen (128x64 px or 0.9 inches)`
+    - `5 Buttons`
+    - `Led activator`
+    - `Tin & Solder`
+    - `PCB (5x7 cm)`
+    - `ESP32 (Models below)`
+    - `2x nrf24L01 + Antenas`
+    - For testing --> `Protoboard` & `Jump Wires`
+
 
 - 2️⃣ ***Proyecto basico***
 
