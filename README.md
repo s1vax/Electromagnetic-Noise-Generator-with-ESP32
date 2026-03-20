@@ -1,5 +1,5 @@
 # Generador de ruido electromagnético "BlueJammer"
-### 📌 Here you can see how I implemented a ESP32 as the main component for a Bluetooth/WI-FI Jammer.
+### 📌 Here you can see how cyber attackers could implemented a ESP32 as the main component for a Bluetooth/WI-FI Jammer.
 
 <p align="center">
 <img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/f06bab14-9d3d-45f5-8d8d-57611350fd09" />
@@ -8,7 +8,7 @@
 
 ---
 
-### ⚠️ ***Legal Information:*** Este proyecto solo tiene fines educativos, obersvando las principales tematicas: Estudio de la Resiliencia de Protocolos, Análisis del Ratio Señal-Ruido (SNR), Concienciación en Ciberseguridad, entre otros. No promueve el uso ilegal e indebido del mismo. Se deben tener precauciones de seguridad al utilizarlo.
+### ⚠️ ***Legal Information:*** Este proyecto solo tiene fines educativos, observando las principales tematicas: Estudio de la Resiliencia de Protocolos, Análisis del Ratio Señal-Ruido (SNR), Concienciación en Ciberseguridad, entre otros. No promueve el uso ilegal e indebido del mismo. Se deben tener precauciones de seguridad.
 
 ---
 
@@ -29,12 +29,12 @@ Somo of these following components were used to carry out the project:
 
 # 🔎 Step by Step of the process
 ### 1. 📟 ESP32 Drivers
-En primer lugar, es escencial que nuestra PC pueda reconocer a nuestra ESP32 en sus puertos de I/O. 
-- Para ello, descargamos el archivo con el siguiente nombre `CP210x Universal Windows Driver` del siguiente link: https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads
-- Luego, debemos descomprimir la carpeta que nos aparacera como descarga
-- Una vez hecho lo anterior, conectamos nuestra `ESP32` y nos iremos a `Device Manager`, y haremos click derecho en nuestro equipo principal (PC, de donde derivan todas las demas listas de dispositivos conectados), siguiente a ello, le damos click en `Add drivers`
--  En esta opcion, apretaremos en los tres puntitos, y aqui deberemos de buscar la ubicacion de la carpeta descomprimida que hemos descargado del link proporcionado
--  Nos tendra que aparecer que los drivers se añadieron correctamente, y para confirmar, nuestra ESP32 debera salir en las listas desplegables `Other devices` o en `Ports (COM & LPT)`, junto al puerto que le asigno nuestra PC
+En primer lugar, es escencial que una PC pueda reconocer a la ESP32 en sus puertos de I/O. 
+- Para ello, se descarga el archivo con el siguiente nombre `CP210x Universal Windows Driver` del siguiente link: https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads
+- Luego, se descomprime la carpeta que aparace como descarga
+- Una vez hecho lo anterior, se conecta la `ESP32`, seguido se debe de ir a `Device Manager` en el icono de Windows, y hacer click derecho en el equipo principal (PC, de donde derivan todas las demas listas de dispositivos conectados), siguiente a ello, se da click en `Add drivers`
+-  En esta opcion, se apreta en los tres puntitos, y aqui se debe de buscar la ubicacion de la carpeta descomprimida que hemos descargado del link proporcionado
+-  Tendra que aparecer que los drivers se añadieron correctamente, y para confirmar, la ESP32 debera salir en las listas desplegables `Other devices` o en `Ports (COM & LPT)`, junto al puerto que le asigno nuestra PC
 
 ### 2. ⚖️ Existen 2 versiones del proyecto
 
@@ -68,7 +68,7 @@ En primer lugar, es escencial que nuestra PC pueda reconocer a nuestra ESP32 en 
 
 ### 4. 🛠️ Flash & Firmware
 
-En esta parte tenemos dos paginas web que se encargaran del flasheo y firmware de la placa, es decir, aplicaran el codigo necesario para que el ESP32 ejecute las acciones jamming.
+En esta parte se tienen dos paginas web que se encargan del flasheo y firmware de la placa, es decir, las que aplican el codigo necesario para que el ESP32 ejecute las acciones jamming.
 
 - 1️⃣ Para la version *Proyecto completo*: 
 https://mega.nz/folder/OQpDnLgY#gKpLGsnu_np7O00hVTvWxg
