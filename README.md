@@ -103,7 +103,7 @@ https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
    - 1️⃣ Para la version *Proyecto completo*:
       - 📛 Serial Peripheral Interface of ESP32 (pines para las placas de antena, y para cualquier version de los ESP32)
 
-        &nbsp;&nbsp; --> HSPI (Generalmente se usa como bus SPI principal de alta velocidad)
+        &nbsp;&nbsp; --> ***HSPI*** (Generalmente se usa como bus SPI principal de alta velocidad)
         
       | Pines nrf24L01 (1 de 2 placa) | Pin ESP32 |
       | :--- | :---: |
@@ -115,7 +115,7 @@ https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
       | **VCC** | Au |
       | **GND** | Au |
      
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> VSPI (Segundo bus independiente, ideal para separar dispositivos y evitar conflictos de velocidad)
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> ***VSPI*** (Segundo bus independiente, ideal para separar dispositivos y evitar conflictos de velocidad)
   
 
 
@@ -160,10 +160,11 @@ https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
       | **Boton 5** | Au |
 
      - ***Examples:***
-       --> ESP32-WROOM-32 (30 Pins)
+       
+       --> ***ESP32-WROOM-32 (30 Pins)***
        <img width="800" height="600" alt="Captura de pantalla 2026-03-19 232315 (1)" src="https://github.com/user-attachments/assets/c1564aa7-16f0-41ce-961c-a568c180dac6" />
 
-       --> ESP32-WROOM-32 (38 Pins)
+       --> ***ESP32-WROOM-32 (38 Pins)***
 
      
    - 2️⃣ Para la version *Proyecto básico*:
