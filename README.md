@@ -1,5 +1,5 @@
-# ESP32 Bluetooth Jammer
-### 📌 Here you can see how I implemented a ESP32-WROOM-32 as the main component for a Bluetooth Jammer.
+# ESP32 BlueJammer
+### 📌 Here you can see how I implemented a ESP32-WROOM-32 as the main component for a Bluetooth/WI-FI Jammer.
 
 <p align="center">
 <img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/f06bab14-9d3d-45f5-8d8d-57611350fd09" />
