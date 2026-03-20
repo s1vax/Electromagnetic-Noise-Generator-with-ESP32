@@ -15,14 +15,15 @@
 ### 🛒 Things we need
 First, we need the following components to carry out the project:
 - `ESP32-WROOM-32` (de 38 pines o de 30 pines) or `ESP32-WROOM-32U` (este ultimo debera tener incorporado su antena propia)
-- `USB Cable` or `Battery output 3.3 V (litium or a portable one)` [optional], for the power of the ESP32
+- `USB Cable` or `Battery output 3.3 V (litium or a portable one)` (for the power of the ESP32) [optional]
 - `2 x nrf24l01 + anthena` (this black model recomended, existen otros)
 - `Jumpers wire` or `tin` [optional], for connections
 - `Protoboard` (for testing in first place) or `PCB perforda` (si queremos una implementacion final y portabilidad) [optional]
-- `PC` para cargar el firmware, el flasheo, y por si queremos usarla para alimentar a la ESP32
+- `PC` (para cargar el firmware, el flasheo, y por si queremos usarla para alimentar a la ESP32)
 - `0.9 inch Oled screen` [optional]
 - `5 buttons` [optional]
-- `Led Monitor` [optional]
+- `Modulo Control Led` [optional]
+- `Modulo cargador de batería USB-c TP4056` (para cargar la bateria) [optional] 
 
 ---
 
@@ -46,12 +47,13 @@ En primer lugar, es escencial que nuestra PC pueda reconocer a nuestra ESP32 en 
 - 1️⃣ ***Proyecto completo***
     - `Oled Screen (128x64 px or 0.9 inches)`
     - `5 Buttons`
-    - `Led activator`
+    - `Modulo Control Led`
     - `Tin & Solder`
     - `PCB (5x7 cm)`
     - `ESP32 (Models below)`
     - `2x nrf24L01 + Antenas`
-    - `Battery output 3.3 V (litium or a portable one)`
+    - `Battery output 3.3 V or 3.7 V (litium or a portable one)`
+    - `Modulo cargador de batería USB-c TP4056`
     - `PC` para cargar el firmware y el flasheo
     - For testing --> `Protoboard` & `Jump Wires`
 
@@ -61,7 +63,7 @@ En primer lugar, es escencial que nuestra PC pueda reconocer a nuestra ESP32 en 
     - `ESP32 (Models below)`
     - `Protoboard`
     - `Jump Wires`
-    - `USB cable` or `Battery output 3.3 V (litium or a portable one)`
+    - `USB cable` or `Battery output 3.3 V or 3.7 V (litium or a portable one)`
     - `PC` para cargar el firmware, el flasheo, y por si queremos usarla para alimentar a la ESP32
 
 ### 4. 🛠️ Flash & Firmware
@@ -139,7 +141,7 @@ https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
       | **Boton 4** | Au |
       | **Boton 5** | Au |
 
-     - 📛 ***Led activador*** (pines para el led indicador de activacion jamming)
+     - 📛 ***Modulo Control Led*** (pines para el led indicador de activacion jamming)
 
       | Pines Led Activador | Pin ESP32 |
       | :--- | :---: |
