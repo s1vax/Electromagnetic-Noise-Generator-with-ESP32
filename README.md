@@ -12,6 +12,9 @@
 
 ---
 
+### 🔎 How it works?
+
+
 ### 🛒 Components that can be implemented
 Somo of these following components were used to carry out the project:
 - `ESP32-WROOM-32` (de 38 pines o de 30 pines) or `ESP32-WROOM-32U` (este ultimo debera tener incorporado su antena propia)
