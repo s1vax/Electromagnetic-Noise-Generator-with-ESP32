@@ -12,7 +12,7 @@
 
 ---
 
-### 🛒 Components that I implemented
+### 🛒 Components that can be implemented
 Somo of these following components were used to carry out the project:
 - `ESP32-WROOM-32` (de 38 pines o de 30 pines) or `ESP32-WROOM-32U` (este ultimo debera tener incorporado su antena propia)
 - `USB Cable` or `Battery output 3.3 V (litium or a portable one)` (for the power of the ESP32) [optional]
@@ -68,7 +68,7 @@ En primer lugar, es escencial que una PC pueda reconocer a la ESP32 en sus puert
 
 ### 4. 🛠️ Flash & Firmware
 
-En esta parte se tienen dos paginas web que se encargan del flasheo y firmware de la placa, es decir, las que aplican el codigo necesario para que el ESP32 ejecute las acciones jamming.
+En esta parte existen dos paginas web que se encargan del flasheo y firmware de la placa, es decir, las que aplican el codigo necesario para que el ESP32 ejecute las acciones jamming.
 
 - 1️⃣ Para la version *Proyecto completo*: 
 https://mega.nz/folder/OQpDnLgY#gKpLGsnu_np7O00hVTvWxg
@@ -77,7 +77,7 @@ https://mega.nz/folder/OQpDnLgY#gKpLGsnu_np7O00hVTvWxg
 https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
 
 ### 5. ⛓️‍💥 Connections
-👉 ***En esta parte es donde hay que prestar muchisima atencion***
+
 - Primero, se debe verificar la cantidad de pines y el modelo de nuestras placas (ESP32 y nrf24L01)
 - Las siguientes imagenes describen el pinmap de las placas ESP32 mas comunes:
    - *ESP32-WROOM-32 (38 Pins)*
@@ -96,7 +96,7 @@ https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
      </p>
 
 
-- La siguiente imagen describe el pinmap de las placas nrf24L01 in its black models (nosotros en este caso, usaremos el modelo de abajo, el nrf24L01 + PA/LNA)
+- La siguiente imagen describe el pinmap de las placas nrf24L01 in its black models (por lo general se opta por el modelo nrf24L01 + PA/LNA)
       <p align="center">
       <img width="760" height="600" alt="image" src="https://github.com/user-attachments/assets/c7a51ea7-fc47-4d03-b2b8-3a622ed1e1b9" />
       </p>
