@@ -27,10 +27,40 @@ Este proyecto, denominado de forma técnica como "Generador de Señales para Pru
 
 ### ❓ How it works?
 
+---
 
-### 🛡️ Mitigacion
-Este proyecto ayuda a ingenieros a entender cómo proteger sus dispositivos contra interferencias mediante el uso de saltos de frecuencia (FHSS) más robustos
+### 🛡️ Estrategias de Mitigación y Resiliencia (Blue Teaming)
+Este proyecto puede ayudar a ingenieros a entender cómo proteger sus dispositivos contra interferencias mediante el uso de saltos de frecuencia (FHSS) más robustos.
 
+El objetivo del mismo tambien es identificar las debilidades de los protocolos inalámbricos para implementar defensas robustas. A continuación, se detallan las medidas técnicas para mitigar la susceptibilidad a la interferencia en la banda de 2.4 GHz:
+
+- 📌 ***Implementación de Adaptive Frequency Hopping (AFH)***
+
+El Bluetooth moderno utiliza AFH para "saltar" entre 79 canales. Una mitigación efectiva consiste en configurar los dispositivos para:
+
+   &nbsp;&nbsp;&nbsp; --> Identificación de Canales Ruidosos: Optimizar los algoritmos de detección de canales afectados para excluirlos dinámicamente de la secuencia de salto.
+
+   &nbsp;&nbsp;&nbsp; --> Reducción de Intervalos de Salto: Incrementar la velocidad de conmutación de frecuencia para minimizar el tiempo de exposición en un canal interferido.
+
+- 📌 ***Transición a la Banda de 5 GHz / 6 GHz (Wi-Fi 6E/7)***
+
+La mayoría de los generadores de ruido basados en hardware económico (como el ESP32 + nRF24L01) están limitados físicamente a la banda de 2.4 GHz.
+
+   &nbsp;&nbsp;&nbsp; --> Migración de Espectro: Desplazar servicios críticos (videovigilancia, comunicación de datos sensible) a las bandas de 5 GHz o 6 GHz reduce drásticamente el área de ataque de dispositivos de baja complejidad.
+
+- 📌 ***Fortalecimiento del Lado del Cliente (Device Hardening)***
+
+Uso de Protocolos de Encriptación Robustos: Aunque la interferencia afecta la capa física (Capa 1 OSI), el uso de WPA3 en Wi-Fi ayuda a prevenir ataques de desautenticación que suelen acompañar al ruido electromagnético.
+
+   &nbsp;&nbsp;&nbsp; --> Blindaje Físico (Shielding): En entornos industriales críticos, el uso de pinturas conductivas o mallas de Faraday parciales puede proteger los receptores de interferencias externas no deseadas.
+
+- 📌 ***Monitorización de Espectro (Spectrum Analysis)***
+
+Implementar sistemas de detección de intrusiones inalámbricas (WIDS) que alerten cuando el piso de ruido (noise floor) sube de forma anómala.
+
+   &nbsp;&nbsp;&nbsp; --> Alertas de DoS: Configurar sistemas de red para detectar patrones de denegación de servicio (DoS) por radiofrecuencia y activar protocolos de contingencia (como el cambio automático a una red cableada de respaldo).
+
+---
 
 ### 🛒 Components that can be implemented
 Somo of these following components were used to carry out the project:
