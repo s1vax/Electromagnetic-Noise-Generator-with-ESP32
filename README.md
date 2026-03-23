@@ -15,13 +15,13 @@ Uso Exclusivo para Investigación y Educación
 
 Este proyecto, denominado de forma técnica como "Generador de Señales para Pruebas de Resiliencia en Protocolos de 2.4 GHz", ha sido desarrollado con fines estrictamente académicos, de auditoría de seguridad y concienciación tecnológica.
 
-- Finalidad: El objetivo principal es el estudio del Ratio Señal-Ruido (SNR), la robustez del espectro radioeléctrico y el análisis de la coexistencia de protocolos (Bluetooth/Wi-Fi).
+- ***Finalidad***: El objetivo principal es el estudio del Ratio Señal-Ruido (SNR), la robustez del espectro radioeléctrico y el análisis de la coexistencia de protocolos (Bluetooth/Wi-Fi).
 
-- Cumplimiento Normativo: Se recuerda a los usuarios que en la República Argentina, el uso del espectro radioeléctrico está regulado por el ENACOM y las Leyes 19.798 y 27.078. La interferencia deliberada de comunicaciones de terceros es una actividad que puede constituir un delito bajo el Artículo 197 del Código Penal Argentino.
+- ***Cumplimiento Normativo***: Se recuerda a los usuarios que en la República Argentina, el uso del espectro radioeléctrico está regulado por el ENACOM y las Leyes 19.798 y 27.078. La interferencia deliberada de comunicaciones de terceros es una actividad que puede constituir un delito bajo el Artículo 197 del Código Penal Argentino.
 
-- Responsabilidad del Usuario: El autor de este repositorio no se responsabiliza por el uso indebido, ilegal o negligente de la información o el hardware aquí descritos. Es responsabilidad total del usuario final asegurar que cualquier prueba se realice en un entorno controlado (como una Jaula de Faraday) y sin afectar a dispositivos o redes ajenas.
+- ***Responsabilidad del Usuario***: El autor de este repositorio no se responsabiliza por el uso indebido, ilegal o negligente de la información o el hardware aquí descritos. Es responsabilidad total del usuario final asegurar que cualquier prueba se realice en un entorno controlado (como una Jaula de Faraday) y sin afectar a dispositivos o redes ajenas.
 
-- No Comercialización: Este contenido es de código abierto y no se autoriza su uso para la fabricación o venta de dispositivos destinados a la interferencia ilícita de señales.
+- ***No Comercialización***: Este contenido es de código abierto y no se autoriza su uso para la fabricación o venta de dispositivos destinados a la interferencia ilícita de señales.
 
 ---
 
