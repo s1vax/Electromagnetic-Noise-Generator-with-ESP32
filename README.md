@@ -27,7 +27,8 @@ Este proyecto, denominado de forma técnica como "Generador de Señales para Pru
 
 ### ❓ How it works?
 
-### Mitigacion
+
+### 🛡️ Mitigacion
 Este proyecto ayuda a ingenieros a entender cómo proteger sus dispositivos contra interferencias mediante el uso de saltos de frecuencia (FHSS) más robustos
 
 
