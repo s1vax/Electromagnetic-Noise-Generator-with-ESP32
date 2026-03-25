@@ -55,27 +55,27 @@ Its objective is also to identify weaknesses in wireless protocols in order to i
 
 ### 🛒 Components that can be implemented in this device
 Some of these following components were used to carry out the project:
-- `ESP32-WROOM-32` (de 38 pines o de 30 pines) or `ESP32-WROOM-32U` (este ultimo debera tener incorporado su antena propia)
+- `ESP32-WROOM-32` ( 38 pins or 30 pins) or `ESP32-WROOM-32U` (the latter must have its own built-in antenna)
 - `USB Cable` or `Battery output 3.3 V (litium or a portable one)` (for the power of the ESP32) [optional]
-- `x2 nrf24l01 + anthena` (this black model recomended, existen otros)
-- `Jumpers wire` or `tin` [optional], for connections
-- `Protoboard` (for testing in first place) or `PCB perforda` (si queremos una implementacion final y portabilidad) [optional]
-- `PC` (para cargar el firmware, el flasheo, y por si queremos usarla para alimentar a la ESP32)
+- `x2 nrf24l01 + anthena` (this black model recomended, there are others)
+- `Jumpers wire` or `tin` (for connections) [optional] 
+- `Protoboard` (for testing in first place) or `PCB perforda` (if we want a final implementation and portability) [optional]
+- `PC` (for loading the firmware, flashing, and if we want to use it to power the ESP32)
 - `0.9 inch Oled screen` [optional]
 - `x5 buttons` [optional]
 - `Modulo Control Led` [optional]
-- `Modulo cargador de batería USB-c TP4056` (para cargar la bateria) [optional] 
+- `Modulo cargador de batería USB-c TP4056` (to charge the battery) [optional] 
 
 ---
 
 # 🔎 Step by Step of the process
 ### 1. 📟 ESP32 Drivers
-En primer lugar, es escencial que una PC pueda reconocer a la ESP32 en sus puertos de I/O. 
-- Para ello, se descarga el archivo con el siguiente nombre `CP210x Universal Windows Driver` del siguiente link: https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads
-- Luego, se descomprime la carpeta que aparace como descarga
-- Una vez hecho lo anterior, se conecta la `ESP32`, seguido se debe de ir a `Device Manager` en el icono de Windows, y hacer click derecho en el equipo principal (PC, de donde derivan todas las demas listas de dispositivos conectados), siguiente a ello, se da click en `Add drivers`
--  En esta opcion, se apreta en los tres puntitos, y aqui se debe de buscar la ubicacion de la carpeta descomprimida que hemos descargado del link proporcionado
--  Tendra que aparecer que los drivers se añadieron correctamente, y para confirmar, la ESP32 debera salir en las listas desplegables `Other devices` o en `Ports (COM & LPT)`, junto al puerto que le asigno nuestra PC
+First, it is essential that a PC can recognize the ESP32 on its I/O ports. 
+- To do this, download the file named `CP210x Universal Windows Driver` from the following link: https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads
+- Then, extract the downloaded folder.
+- Once you have done this, connect the `ESP32`. Next, go to `Device Manager` (the Windows icon), right-click on the main computer (PC, from which all other connected device lists are derived), and then click on `Add drivers`.
+- In this option, click on the three dots, and then locate the extracted folder you downloaded from the provided link.
+- You should see a message indicating that the drivers were added correctly. To confirm, the ESP32 should appear in the `Other devices` or `Ports (COM & LPT)`, next to the port that our PC assigns to it
 
 ### 2. ⚖️ Existen 2 versiones conocidas del proyecto 
 
