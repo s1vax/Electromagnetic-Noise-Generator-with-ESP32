@@ -186,31 +186,30 @@ https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
 
       | Leds Switch Module pins | ESP32 pins |
       | :--- | :---: |
-      | **Boton 1** | Au | 
-      | **Boton 2** | So |
-      | **Boton 3** | Au |
-      | **Boton 4** | Au |
-      | **Boton 5** | Au |
+      | **Button 1** | Au | 
+      | **Button 2** | So |
+      | **Button 3** | Au |
+      | **Button 4** | Au |
     
      - 📛 ***Buttons*** (pins for using the buttons)
     
-      | Pines Botones | ESP32 pins |
+      | Buttons pins | ESP32 pins |
       | :--- | :---: |
-      | **Boton 1** | Au | 
-      | **Boton 2** | So |
-      | **Boton 3** | Au |
-      | **Boton 4** | Au |
-      | **Boton 5** | Au |
+      | **Button 1** | Au | 
+      | **Button 2** | So |
+      | **Button 3** | Au |
+      | **Button 4** | Au |
+      | **Button 5** | Au |
 
-     - 📛 ***TP4056 USB-C Battery Charger Module*** (pins for the lithium battery charger)
+     - 📛 ***TP4056 USB-C Battery Charger Module*** (pins for the lithium battery USB charger)
     
-      | Pines Botones | ESP32 pins |
+      | Battery Charger Module pins | ESP32 pins |
       | :--- | :---: |
-      | **Boton 1** | Au | 
-      | **Boton 2** | So |
-      | **Boton 3** | Au |
-      | **Boton 4** | Au |
-      | **Boton 5** | Au |
+      | **Button 1** | Au | 
+      | **Button 2** | So |
+      | **Button 3** | Au |
+      | **Button 4** | Au |
+      | **Button 5** | Au |
 
      
    - 2️⃣ For the *Basic Project* version:
