@@ -1,4 +1,4 @@
-# Generador de ruido electromagnético "BlueJammer"
+# "BlueJammer" Electromagnetic Noise Generator
 ### 📌 Here you can see how an ESP32 could be implemented as the main component of a signal generator for protocol resilience testing.
 
 <p align="center">
@@ -8,40 +8,40 @@
 
 ---
 
-### ⚠️ ***Legal Information:*** Este proyecto solo tiene fines educativos, observando las principales tematicas: Estudio de la Resiliencia de Protocolos, Análisis del Ratio Señal-Ruido (SNR), Concienciación en Ciberseguridad, entre otros. No promueve el uso ilegal e indebido del mismo. Se deben tener precauciones de seguridad.
+### ⚠️ ***Legal Information:*** This project is for educational purposes only, focusing on key topics such as protocol resilience, signal-to-noise ratio (SNR) analysis, and cybersecurity awareness, among others. It does not promote its illegal or improper use. Security precautions should be taken.
 
-⚖️ Descargo de Responsabilidad y Términos de Uso (Legal Disclaimer)
-Uso Exclusivo para Investigación y Educación
+⚖️ Disclaimer and Terms of Use (Legal Disclaimer)
+Exclusive Use for Research and Education
 
-Este proyecto, denominado de forma técnica como "Generador de Señales para Pruebas de Resiliencia en Protocolos de 2.4 GHz", ha sido desarrollado con fines estrictamente académicos, de auditoría de seguridad y concienciación tecnológica.
+This project, technically named "Signal Generator for Resilience Testing in 2.4 GHz Protocols," has been developed for strictly academic, security auditing, and technology awareness purposes.
 
-- ***Finalidad***: El objetivo principal es el estudio del Ratio Señal-Ruido (SNR), la robustez del espectro radioeléctrico y el análisis de la coexistencia de protocolos (Bluetooth/Wi-Fi).
+- ***Purpose***: The main objective is to study the Signal-to-Noise Ratio (SNR), the robustness of the radio spectrum, and the analysis of protocol coexistence (Bluetooth/Wi-Fi).
 
-- ***Cumplimiento Normativo***: Se recuerda a los usuarios que en la República Argentina, el uso del espectro radioeléctrico está regulado por el ENACOM y las Leyes 19.798 y 27.078. La interferencia deliberada de comunicaciones de terceros es una actividad que puede constituir un delito bajo el Artículo 197 del Código Penal Argentino.
+- ***Regulatory Compliance***: Users are reminded that in the Republic of Argentina, the use of the radio spectrum is regulated by ENACOM and Laws 19.798 and 27.078. Deliberate interference with third-party communications is an activity that may constitute a crime under Article 197 of the Argentine Penal Code.
 
-- ***Responsabilidad del Usuario***: El autor de este repositorio no se responsabiliza por el uso indebido, ilegal o negligente de la información o el hardware aquí descritos. Es responsabilidad total del usuario final asegurar que cualquier prueba se realice en un entorno controlado (como una Jaula de Faraday) y sin afectar a dispositivos o redes ajenas.
+- ***User Responsibility***: The author of this repository is not responsible for the misuse, illegal, or negligent use of the information or hardware described herein. It is the end user's sole responsibility to ensure that any testing is performed in a controlled environment (such as a Faraday cage) and without affecting other devices or networks.
 
-- ***No Comercialización***: Este contenido es de código abierto y no se autoriza su uso para la fabricación o venta de dispositivos destinados a la interferencia ilícita de señales.
-
+- ***Non-Commercial Use***: This content is open source and its use for the manufacture or sale of devices intended for the unlawful interference of signals is not authorized.
+  
 ---
 
 ### ❓ How it works?
 
 ---
 
-### 🛡️ Estrategias de Mitigación y Resiliencia (Blue Teaming)
-Este proyecto puede ayudar a ingenieros a entender cómo proteger sus dispositivos contra interferencias mediante el uso de saltos de frecuencia (FHSS) más robustos.
+### 🛡️ Mitigation and Resilience Strategies (Blue Teaming)
+This project can help engineers understand how to protect their devices against interference by using more robust Frequency Hopping Switches (FHSS).
 
-El objetivo del mismo tambien es identificar las debilidades de los protocolos inalámbricos para implementar defensas robustas. A continuación, se detallan las medidas técnicas para mitigar la susceptibilidad a la interferencia en la banda de 2.4 GHz:
+Its objective is also to identify weaknesses in wireless protocols in order to implement robust defenses. The following details the technical measures to mitigate susceptibility to interference in the 2.4 GHz band:
 
-- 📌 ***Implementación de Adaptive Frequency Hopping (AFH)***
-   - El Bluetooth moderno utiliza AFH para "saltar" entre 79 canales. Una mitigación efectiva consiste en configurar los dispositivos para:
-      - ***Identificación de Canales Ruidosos:*** Optimizar los algoritmos de detección de canales afectados para excluirlos dinámicamente de la secuencia de salto.
-      - ***Reducción de Intervalos de Salto:*** Incrementar la velocidad de conmutación de frecuencia para minimizar el tiempo de exposición en un canal interferido.
-
-- 📌 ***Transición a la Banda de 5 GHz / 6 GHz (Wi-Fi 6E/7)***
-   - La mayoría de los generadores de ruido basados en hardware económico (como el ESP32 + nRF24L01) están limitados físicamente a la banda de 2.4 GHz.
-      - ***Migración de Espectro:*** Desplazar servicios críticos (videovigilancia, comunicación de datos sensible) a las bandas de 5 GHz o 6 GHz reduce drásticamente el área de ataque de dispositivos de baja complejidad.
+- 📌 ***Implementation of Adaptive Frequency Hopping (AFH)***
+   - Modern Bluetooth uses AFH to "jump" between 79 channels. An effective mitigation strategy is to configure devices to:
+      - ***Identification of Noisy Channels:*** Optimize the algorithms for detecting affected channels to dynamically exclude them from the hopping sequence.
+      - ***Reduction of Hop Intervals:*** Increase the frequency switching speed to minimize exposure time on an interfered channel.
+      - 
+- 📌 ***Transition to the 5 GHz / 6 GHz Band (Wi-Fi 6E/7)***
+   - Most inexpensive hardware-based noise generators (such as the ESP32 + nRF24L01) are physically limited to the 2.4 GHz band.
+      - ***Spectrum Migration:*** Moving critical services (video surveillance, sensitive data communication) to the 5 GHz or 6 GHz bands drastically reduces the attack area of ​​low-complexity devices.
 
 - 📌 ***Fortalecimiento del Lado del Cliente (Device Hardening)***
    - Uso de Protocolos de Encriptación Robustos: Aunque la interferencia afecta la capa física (Capa 1 OSI), el uso de WPA3 en Wi-Fi ayuda a prevenir ataques de desautenticación que suelen acompañar al ruido electromagnético.
