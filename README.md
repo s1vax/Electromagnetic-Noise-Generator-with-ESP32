@@ -38,23 +38,23 @@ Its objective is also to identify weaknesses in wireless protocols in order to i
    - Modern Bluetooth uses AFH to "jump" between 79 channels. An effective mitigation strategy is to configure devices to:
       - ***Identification of Noisy Channels:*** Optimize the algorithms for detecting affected channels to dynamically exclude them from the hopping sequence.
       - ***Reduction of Hop Intervals:*** Increase the frequency switching speed to minimize exposure time on an interfered channel.
-      - 
+      
 - 📌 ***Transition to the 5 GHz / 6 GHz Band (Wi-Fi 6E/7)***
    - Most inexpensive hardware-based noise generators (such as the ESP32 + nRF24L01) are physically limited to the 2.4 GHz band.
       - ***Spectrum Migration:*** Moving critical services (video surveillance, sensitive data communication) to the 5 GHz or 6 GHz bands drastically reduces the attack area of ​​low-complexity devices.
 
-- 📌 ***Fortalecimiento del Lado del Cliente (Device Hardening)***
-   - Uso de Protocolos de Encriptación Robustos: Aunque la interferencia afecta la capa física (Capa 1 OSI), el uso de WPA3 en Wi-Fi ayuda a prevenir ataques de desautenticación que suelen acompañar al ruido electromagnético.
-      - ***Blindaje Físico (Shielding):*** En entornos industriales críticos, el uso de pinturas conductivas o mallas de Faraday parciales puede proteger los receptores de interferencias externas no deseadas.
+- 📌 ***Client-Side Hardening (Device Hardening)***
+   - Use of Robust Encryption Protocols: Although interference affects the physical layer (OSI Layer 1), the use of WPA3 in Wi-Fi helps prevent deauthentication attacks that often accompany electromagnetic noise.
+      - ***Physical Shielding (Shielding):*** In critical industrial environments, the use of conductive paints or partial Faraday meshes can protect receivers from unwanted external interference.
 
-- 📌 ***Monitorización de Espectro (Spectrum Analysis)***
-   - Implementar sistemas de detección de intrusiones inalámbricas (WIDS) que alerten cuando el piso de ruido (noise floor) sube de forma anómala.
-      - ***Alertas de DoS:*** Configurar sistemas de red para detectar patrones de denegación de servicio (DoS) por radiofrecuencia y activar protocolos de contingencia (como el cambio automático a una red cableada de respaldo).
-
+- 📌 ***Spectrum Monitoring (Spectrum Analysis)***
+   - Implement wireless intrusion detection systems (WIDS) that alert when the noise floor rises abnormally.
+      - ***DoS Alerts:*** Configure network systems to detect radio frequency denial-of-service (DoS) patterns and activate contingency protocols (such as automatic switching to a backup wired network).
+        
 ---
 
 ### 🛒 Components that can be implemented in this device
-Somo of these following components were used to carry out the project:
+Some of these following components were used to carry out the project:
 - `ESP32-WROOM-32` (de 38 pines o de 30 pines) or `ESP32-WROOM-32U` (este ultimo debera tener incorporado su antena propia)
 - `USB Cable` or `Battery output 3.3 V (litium or a portable one)` (for the power of the ESP32) [optional]
 - `x2 nrf24l01 + anthena` (this black model recomended, existen otros)
