@@ -56,7 +56,7 @@ Its objective is also to identify weaknesses in wireless protocols in order to i
 ### 🛒 Components that can be implemented in this device
 Some of these following components were used to carry out the project:
 - `ESP32-WROOM-32` ( 38 pins or 30 pins) or `ESP32-WROOM-32U` (the latter must have its own built-in antenna)
-- `USB Cable` or `Battery output 3.3 V (litium or a portable one)` (for the power of the ESP32) [optional]
+- `USB Cable` or `Battery output 3.3 V (lithium or a portable one)` (for the power of the ESP32) [optional]
 - `x2 nrf24l01 + anthena` (this black model recomended, there are others)
 - `Jumpers wire` or `tin` (for connections) [optional] 
 - `Protoboard` (for testing in first place) or `PCB perforda` (if we want a final implementation and portability) [optional]
@@ -93,7 +93,7 @@ First, it is essential that a PC can recognize the ESP32 on its I/O ports.
     - `PCB (5x7 cm)`
     - `ESP32 (Models below)`
     - `x2 nrf24L01 + Antenas`
-    - `Battery output 3.3 V or 3.7 V (litium or a portable one)`
+    - `Battery output 3.3 V or 3.7 V (lithium or a portable one)`
     - `Modulo cargador de batería USB-c TP4056` (to charge the lithium battery)
     - `PC & USB cable` (to load the firmware and flash)
     - For testing --> `Protoboard` & `Jump Wires`
@@ -105,7 +105,7 @@ First, it is essential that a PC can recognize the ESP32 on its I/O ports.
     - `Protoboard`
     - `Jump Wires`
     - `PC & USB cable` (for loading the firmware, flashing, and if we want to use it to power the ESP32)
-    - `Battery output 3.3 V or 3.7 V (litium or a portable one)` [optional]
+    - `Battery output 3.3 V or 3.7 V (lithium or a portable one)` [optional]
 
 ### 4. 🛠️ Flash & Firmware
 
