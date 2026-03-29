@@ -149,13 +149,13 @@ https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
         
       | nrf24L01 (1 of 2) pins | ESP32 pins |
       | :--- | :---: |
-      | **MOSI** | Au | 
-      | **MISO** | So |
-      | **SCK** | Au |
-      | **CE** | Au |
-      | **CS o CNS** | Au |
-      | **VCC** | Au |
-      | **GND** | Au |
+      | **MOSI** | 13 | 
+      | **MISO** | 12 |
+      | **SCK** | 14 |
+      | **CE** | 16 |
+      | **CS o CNS** | 15 |
+      | **VCC** | 3.3 V |
+      | **GND** | GND |
      
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> ***VSPI*** (second independent bus, ideal for separating devices and avoiding speed conflicts)
   
@@ -218,13 +218,13 @@ https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
         
       | nrf24L01 (1 of 2) pins | ESP32 pins |
       | :--- | :---: |
-      | **MOSI** | Au | 
-      | **MISO** | So |
-      | **SCK** | Au |
-      | **CE** | Au |
-      | **CS o CNS** | Au |
-      | **VCC** | Au |
-      | **GND** | Au |
+      | **MOSI** | 13 | 
+      | **MISO** | 12 |
+      | **SCK** | 14 |
+      | **CE** | 16 |
+      | **CS o CNS** | 15 |
+      | **VCC** | 3.3 V |
+      | **GND** | GND |
      
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> ***VSPI*** (second independent bus, ideal for separating devices and avoiding speed conflicts)
   
