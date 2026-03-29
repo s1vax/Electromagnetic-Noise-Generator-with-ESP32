@@ -194,21 +194,21 @@ https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
     
       | Buttons pins | ESP32 pins |
       | :--- | :---: |
-      | **Button 1** | Au | 
-      | **Button 2** | So |
-      | **Button 3** | Au |
-      | **Button 4** | Au |
-      | **Button 5** | Au |
+      | **Button 1** | GPIO Au | 
+      | **Button 2** | GPIO So |
+      | **Button 3** | GPIO Au |
+      | **Button 4** | GPIO Au |
+      | **Button 5** | GPIO Au |
 
      - 📛 ***TP4056 USB-C Battery Charger Module*** (pins for the lithium battery USB charger)
     
       | Battery Charger Module pins | ESP32 pins |
       | :--- | :---: |
-      | **Button 1** | Au | 
-      | **Button 2** | So |
-      | **Button 3** | Au |
-      | **Button 4** | Au |
-      | **Button 5** | Au |
+      | **Button 1** | GPIO Au | 
+      | **Button 2** | GPIO So |
+      | **Button 3** | GPIO Au |
+      | **Button 4** | GPIO Au |
+      | **Button 5** | GPIO Au |
 
      
    - 2️⃣ For the *Basic Project* version:
