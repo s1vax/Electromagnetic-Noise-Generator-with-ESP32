@@ -144,32 +144,30 @@ https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
 - 👉 Once the pins and board models to be used have been established, the connections are made, according to the project version:
    - 1️⃣ For the *Complete Project* version
       - 📛 ***Serial Peripheral Interface*** of ESP32 (pins for antenna boards, and for any version of the ESP32)
-
-        &nbsp;&nbsp; --> ***HSPI*** (it is generally used as the main high-speed SPI bus)
+        - 📡***First Antenna***
         
       | nrf24L01 (1 of 2) pins | ESP32 pins |
       | :--- | :---: |
       | **MOSI** | GPIO 13 | 
       | **MISO** | GPIO 12 |
       | **SCK** | GPIO 14 |
-      | **CE** | GPIO 16 |
-      | **CS o CNS** | GPIO 15 |
+      | **CE** | GPIO 15 |
+      | **CS o CNS** | GPIO 2 |
       | **VCC** | 3.3 V |
       | **GND** | GND |
-     
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> ***VSPI*** (second independent bus, ideal for separating devices and avoiding speed conflicts)
-  
 
-
+        - 📡***Second Antenna***
+    
       | nrf24L01 (2 of 2) pins | ESP32 pins |
       | :--- | :---: |
       | **MOSI** | GPIO 23 | 
       | **MISO** | GPIO 19 |
       | **SCK** | GPIO 18 |
-      | **CE** | GPIO 22 | -- se repite
-      | **CS o CNS** | GPIO 21 | -- se repite
+      | **CE** | GPIO 16 | -- se repite
+      | **CS o CNS** | GPIO 4 | -- se repite
       | **VCC** | 3.3 V |
       | **GND** | GND |
+  
 
      - 📛 ***0.9 inch (or 128x64 px) Oled screen*** (pins for the OLED screen where we will see the options menu)
 
@@ -202,7 +200,7 @@ https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
 <br>
 
    - 2️⃣ For the *Basic Project* version:
-      - Solo se necesita la conexion de las antenas, ya que no dispone de otros componentes
+      - Only the antenna connection is needed, as it does not have any other components.
       - 📛 ***Serial Peripheral Interface*** of ESP32 (pins for antenna boards, and for any version of the ESP32)
       
         &nbsp;&nbsp; --> ***HSPI*** (it is generally used as the main high-speed SPI bus)
