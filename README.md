@@ -198,7 +198,8 @@ https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
       | **Button 4** | GPIO Au |
       | **Button 5** | GPIO Au |
 
-
+<br>
+<br>
 
    - 2️⃣ For the *Basic Project* version:
       - Solo se necesita la conexion de las antenas, ya que no dispone de otros componentes
