@@ -166,8 +166,8 @@ https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
       | **MOSI** | GPIO 23 | 
       | **MISO** | GPIO 19 |
       | **SCK** | GPIO 18 |
-      | **CE** | GPIO 22 |
-      | **CS o CNS** | GPIO 21 |
+      | **CE** | GPIO 22 | -- se repite
+      | **CS o CNS** | GPIO 21 | -- se repite
       | **VCC** | 3.3 V |
       | **GND** | GND |
 
@@ -175,9 +175,8 @@ https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
 
       | Oled screen pins| ESP32 pins |
       | :--- | :---: |
-      | **SCL** | GPIO Au | 
-      | **SCA** | GPIO So |
-      | **Boton 3** | GPIO Au |
+      | **SCL** | GPIO 22 | 
+      | **SCA** | GPIO 21 |
       | **VCC** | 3.3 V |
       | **GND** | GND |
 
@@ -212,6 +211,7 @@ https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
 
      
    - 2️⃣ For the *Basic Project* version:
+      - Solo se necesita la conexion de las antenas, ya que no dispone de otros componentes
       - 📛 ***Serial Peripheral Interface*** of ESP32 (pins for antenna boards, and for any version of the ESP32)
       
         &nbsp;&nbsp; --> ***HSPI*** (it is generally used as the main high-speed SPI bus)
