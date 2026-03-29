@@ -232,10 +232,10 @@ https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
 
       | nrf24L01 (2 of 2) pins | ESP32 pins |
       | :--- | :---: |
-      | **MOSI** | 23 | 
-      | **MISO** | 19 |
-      | **SCK** | 18 |
-      | **CE** | 22 |
-      | **CS o CNS** | 21 |
+      | **MOSI** | GPIO 23 | 
+      | **MISO** | GPIO 19 |
+      | **SCK** | GPIO 18 |
+      | **CE** | GPIO 22 |
+      | **CS o CNS** | GPIO 21 |
       | **VCC** | 3.3 V |
       | **GND** | GND |
