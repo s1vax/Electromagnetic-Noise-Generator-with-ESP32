@@ -241,10 +241,11 @@ https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
 
 <br>
 
-### Cabe destacar, para ambos proyectos, que la efectividad de la señal depende principalmente de:
+### 📌 Cabe destacar, para ambos proyectos, que la efectividad de la señal depende principalmente de ciertos factores:
 - El alcance de nuestras antenas (corto, medio, largo alcance)
 - Usar 1 o 2 antenas (si se usan mas antenas, aumenta el ruido e interferencia, por lo que se deben realizar mas estudios)
-- Obstaculos fisicos (paredes, edificios, etc)
+- Obstaculos fisicos en el camino de la señal (paredes, edificios, etc)
+- Uso de configuraciones especificas para generar ruido en ciertos espectros
 
 ### I hope you found this helpful and enjoyable. If so, leave a star ⭐ Best wishes and much success!
       
