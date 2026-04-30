@@ -243,7 +243,7 @@ https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
 
 ### 📌 It should be noted, for both projects, that the effectiveness of the signal depends mainly on certain factors:
 - The range of our antennas (short, medium, long range)
-- Usar 1 o 2 antenas (si se usan mas antenas, aumenta el ruido e interferencia, por lo que se deben realizar mas estudios)
+- Use 1 or 2 antennas (using more antennas increases noise and interference, so further studies are needed)
 - Obstaculos fisicos en el camino de la señal (paredes, edificios, etc)
 - Uso de configuraciones especificas para generar ruido en ciertos espectros (que solo afecte ciertos dispositivos, ciertos canales de frecuencia 2.4 GHz, entre otras)
 
