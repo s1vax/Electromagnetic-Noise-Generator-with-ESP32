@@ -31,9 +31,9 @@ Funcionality Diagram
 ---
 
 ### 📦 Secure Enviorements
-- Laboratorios de prueba certificados
-- Jaulas de Faraday
-- Entornos blindados RF autorizados
+- Certified testing laboratories
+- Faraday cages
+- Authorized RF shielded environments
 
 ---
 
