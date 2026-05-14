@@ -61,6 +61,10 @@ Its objective is also to identify weaknesses in wireless protocols in order to i
         
 ---
 
+### 🔊 El fenomeno de Argentina "Pocket Gone"
+
+---
+
 ### 🛒 Components that can be implemented in this device
 Some of these following components were used to carry out the project:
 - `ESP32-WROOM-32` ( 38 pins or 30 pins) or `ESP32-WROOM-32U` (the latter must have its own built-in antenna)
