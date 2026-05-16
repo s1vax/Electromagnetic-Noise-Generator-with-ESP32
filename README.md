@@ -63,6 +63,7 @@ Its objective is also to identify weaknesses in wireless protocols in order to i
 
 ### 🔊 El fenomeno de Argentina "Pocket Gone"
 
+
 ---
 
 ### 🛒 Components that can be implemented in this device
