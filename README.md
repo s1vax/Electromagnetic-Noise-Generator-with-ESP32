@@ -70,16 +70,19 @@ Its objective is also to identify weaknesses in wireless protocols in order to i
 
   Oficialmente, se presenta como una "herramienta de diagnóstico para parlantes Bluetooth". Sin embargo, su notoriedad se debe a su Modo S (Silenciamiento), el cual le permite actuar como una contramedida electrónica        encubierta para interrumpir el streaming de audio de parlantes cercanos, pensado originalmente para combatir la contaminación sonora y los vecinos ruidosos.
 
+  <br>
+
 - ¿Cómo Funciona?
+
   A nivel técnico, Pocket Gone no es un jammer de fuerza bruta tradicional que ensucia todo el espectro electromagnético de manera indiscriminada. En su lugar, realiza un ataque dirigido a las limitaciones del protocolo     Bluetooth Classic en la banda de 2.4 GHz.
 
-  Reconocimiento y Diagnóstico: El dispositivo escanea el entorno de radiofrecuencia identificando canales Bluetooth congestionados. Puede listar dispositivos cercanos en modo emparejamiento (pairing), capturando métricas   clave como el RSSI (fuerza de la señal), la dirección MAC y el nombre del hardware.
+    - ***Reconocimiento y Diagnóstico: El dispositivo escanea el entorno de radiofrecuencia identificando canales Bluetooth congestionados. Puede listar dispositivos cercanos en modo emparejamiento (pairing), capturando métricas   clave como el RSSI (fuerza de la señal), la dirección MAC y el nombre del hardware.
 
-  Agotamiento de Canales (Modo S): Al activar el silenciamiento, el dispositivo explota la forma en que Bluetooth negocia el espectro. Genera la ilusión a nivel de red de que no existen canales disponibles para mantener     la transmisión, o sobrecarga la conexión con múltiples solicitudes, forzando al parlante a detener el flujo de audio.
+    - ***Agotamiento de Canales (Modo S): Al activar el silenciamiento, el dispositivo explota la forma en que Bluetooth negocia el espectro. Genera la ilusión a nivel de red de que no existen canales disponibles para mantener     la transmisión, o sobrecarga la conexión con múltiples solicitudes, forzando al parlante a detener el flujo de audio.
 
-  Selectividad Espectral: A diferencia de un inhibidor comercial, Pocket Gone está programado para dejar una "ventana" temporal que permite la recuperación de otras comunicaciones. No inhibe las redes WiFi de 2.4 GHz ni     de 5.8 GHz, y es completamente inofensivo contra sistemas que operan en otras frecuencias (como GPS a 1600 MHz, redes celulares GSM o llaveros de automóviles a 433 MHz).
+    - ***Selectividad Espectral: A diferencia de un inhibidor comercial, Pocket Gone está programado para dejar una "ventana" temporal que permite la recuperación de otras comunicaciones. No inhibe las redes WiFi de 2.4 GHz ni     de 5.8 GHz, y es completamente inofensivo contra sistemas que operan en otras frecuencias (como GPS a 1600 MHz, redes celulares GSM o llaveros de automóviles a 433 MHz).
 
-  Hardware y Ganancia: El dispositivo es portátil (mide apenas 39x70x32mm) y se alimenta vía USB-C (5V). Para mejorar la directividad y el alcance del ataque, el proyecto documenta la creación de la "Peach Cantenna": una    antena direccional casera de bajo costo fabricada a partir de una lata de duraznos, ideal para enfocar la emisión hacia un objetivo específico.
+    - ***Hardware y Ganancia: El dispositivo es portátil (mide apenas 39x70x32mm) y se alimenta vía USB-C (5V). Para mejorar la directividad y el alcance del ataque, el proyecto documenta la creación de la "Peach Cantenna": una    antena direccional casera de bajo costo fabricada a partir de una lata de duraznos, ideal para enfocar la emisión hacia un objetivo específico.
 
 <br>
 <br>
