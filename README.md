@@ -79,7 +79,7 @@ Its objective is also to identify weaknesses in wireless protocols in order to i
 
   Selectividad Espectral: A diferencia de un inhibidor comercial, Pocket Gone está programado para dejar una "ventana" temporal que permite la recuperación de otras comunicaciones. No inhibe las redes WiFi de 2.4 GHz ni     de 5.8 GHz, y es completamente inofensivo contra sistemas que operan en otras frecuencias (como GPS a 1600 MHz, redes celulares GSM o llaveros de automóviles a 433 MHz).
 
-Hardware y Ganancia: El dispositivo es portátil (mide apenas 39x70x32mm) y se alimenta vía USB-C (5V). Para mejorar la directividad y el alcance del ataque, el proyecto documenta la creación de la "Peach Cantenna": una antena direccional casera de bajo costo fabricada a partir de una lata de duraznos, ideal para enfocar la emisión hacia un objetivo específico.
+  Hardware y Ganancia: El dispositivo es portátil (mide apenas 39x70x32mm) y se alimenta vía USB-C (5V). Para mejorar la directividad y el alcance del ataque, el proyecto documenta la creación de la "Peach Cantenna": una    antena direccional casera de bajo costo fabricada a partir de una lata de duraznos, ideal para enfocar la emisión hacia un objetivo específico.
 
 <br>
 <br>
