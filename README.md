@@ -25,11 +25,12 @@ This project, technically named "Signal Generator for Resilience Testing in 2.4 
 <br>
 <br>
 
-### ❓ How it works?
+## ❓ How it works?
 
 Funcionality Diagram
 
----
+<br>
+<br>
 
 ### 📦 Secure Enviorements
 - Certified testing laboratories
