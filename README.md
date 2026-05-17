@@ -10,7 +10,7 @@
 
 ### ⚠️ ***Legal Information:*** This project is for educational purposes only, focusing on key topics such as protocol resilience, signal-to-noise ratio (SNR) analysis, and cybersecurity awareness, among others. It does not promote its illegal or improper use. Security precautions should be taken.
 
-⚖️ Disclaimer and Terms of Use (Legal Disclaimer)
+## ⚖️ Disclaimer and Terms of Use (Legal Disclaimer)
 
 This project, technically named "Signal Generator for Resilience Testing in 2.4 GHz Protocols," has been developed for strictly academic, security auditing, and technology awareness purposes.
 
@@ -40,7 +40,7 @@ Funcionality Diagram
 <br>
 <br>
 
-### 🛡️ Mitigation and Resilience Strategies (Blue Teaming)
+## 🛡️ Mitigation and Resilience Strategies (Blue Teaming)
 This project can help engineers understand how to protect their devices against interference by using more robust Frequency Hopping Switches (FHSS).
 
 Its objective is also to identify weaknesses in wireless protocols in order to implement robust defenses. The following details the technical measures to mitigate susceptibility to interference in the 2.4 GHz band:
