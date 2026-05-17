@@ -66,13 +66,14 @@ Its objective is also to identify weaknesses in wireless protocols in order to i
 <br>
 
 ## 🔊 El fenomeno de Argentina "Pocket Gone"
-- Pocket Gone es un dispositivo de hardware hacking y diagnóstico de radiofrecuencia creado por el maker argentino Ronnie Bandini. Nació como una evolución portátil de su proyecto viral anterior, conocido como "Reggaetón Be Gone".
+
+Pocket Gone es un dispositivo de hardware hacking y diagnóstico de radiofrecuencia creado por el maker argentino Ronnie Bandini. Nació como una evolución portátil de su proyecto viral anterior, conocido como "Reggaetón Be Gone".
 
   Oficialmente, se presenta como una "herramienta de diagnóstico para parlantes Bluetooth". Sin embargo, su notoriedad se debe a su Modo S (Silenciamiento), el cual le permite actuar como una contramedida electrónica        encubierta para interrumpir el streaming de audio de parlantes cercanos, pensado originalmente para combatir la contaminación sonora y los vecinos ruidosos.
 
   <br>
 
-- ¿Cómo Funciona?
+- ***❓ ¿Cómo Funciona?***
 
   A nivel técnico, Pocket Gone no es un jammer de fuerza bruta tradicional que ensucia todo el espectro electromagnético de manera indiscriminada. En su lugar, realiza un ataque dirigido a las limitaciones del protocolo     Bluetooth Classic en la banda de 2.4 GHz.
 
