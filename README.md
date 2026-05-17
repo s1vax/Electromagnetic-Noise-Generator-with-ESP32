@@ -73,7 +73,7 @@ Oficialmente, se presenta como una "herramienta de diagnóstico para parlantes B
 <br>
 <br>
 
-### 🛒 Components that can be implemented in this device
+## 🛒 Components that can be implemented in this device
 Some of these following components were used to carry out the project:
 - `ESP32-WROOM-32` ( 38 pins or 30 pins) or `ESP32-WROOM-32U` (the latter must have its own built-in antenna)
 - `USB Cable` or `Battery output 3.3 V (lithium or a portable one)` (for the power of the ESP32) [optional]
@@ -86,7 +86,7 @@ Some of these following components were used to carry out the project:
 - `Leds Switch Module Ws2812 Rgb` [optional]
 - `TP4056 USB-C Battery Charger Module` (to charge the battery) [optional] 
 
----
+
 
 # 🔎 Step by Step of the process
 ### 1. 📟 ESP32 Drivers
