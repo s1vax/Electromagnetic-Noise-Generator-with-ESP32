@@ -86,6 +86,18 @@ Pocket Gone es un dispositivo de hardware hacking y diagnóstico de radiofrecuen
     - ***Hardware y Ganancia***: El dispositivo es portátil (mide apenas 39x70x32mm) y se alimenta vía USB-C (5V). Para mejorar la directividad y el alcance del ataque, el proyecto documenta la creación de la "Peach Cantenna": una    antena direccional casera de bajo costo fabricada a partir de una lata de duraznos, ideal para enfocar la emisión hacia un objetivo específico.
 
 <br>
+
+- ***⚖️ El Aspecto Legal (La "Zona Gris")***
+
+  El despliegue y uso de dispositivos como el Pocket Gone entra en un territorio legal sumamente delicado, lo que genera un constante debate ético en la comunidad de ciberseguridad y makers:
+
+    - ***Regulaciones de Telecomunicaciones***: En Argentina (bajo el ENACOM) y en la mayoría de los países del mundo, la emisión deliberada de radiofrecuencia para interferir, bloquear o alterar las telecomunicaciones de terceros es completamente ilegal. Utilizarlo contra el parlante de otra persona sin su consentimiento constituye un delito federal.
+
+    - ***El Argumento de la Contaminación Sonora***: El creador del proyecto argumenta que el dispositivo habita una "zona gris" social. Mientras que la interferencia de RF está penada, también existen ordenanzas municipales contra los ruidos molestos y la contaminación auditiva (en playas, parques y edificios) que, en la práctica, rara vez son controladas por las autoridades. El dispositivo surge como una respuesta de "justicia por mano propia" ante esta inacción.
+
+    - ***Disclaimer Oficial***: Para protegerse de repercusiones legales, el sitio oficial de Pocket Gone advierte que es un proyecto educativo y de diagnóstico. Se especifica claramente que el Modo S de silenciamiento debe ser utilizado exclusivamente con parlantes propios, en un ámbito privado, y siempre respetando la legislación local vigente. La responsabilidad del uso recae enteramente en quien ensambla y opera el hardware.
+
+<br>
 <br>
 
 ## 🛒 Components that can be implemented in this device
