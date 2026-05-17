@@ -32,11 +32,12 @@ Funcionality Diagram
 <br>
 <br>
 
-### 📦 Secure Enviorements
+## 📦 Secure Enviorements
 - Certified testing laboratories
 - Faraday cages
 - Authorized RF shielded environments
 
+<br>
 <br>
 
 ### 🛡️ Mitigation and Resilience Strategies (Blue Teaming)
