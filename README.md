@@ -86,7 +86,8 @@ Some of these following components were used to carry out the project:
 - `Leds Switch Module Ws2812 Rgb` [optional]
 - `TP4056 USB-C Battery Charger Module` (to charge the battery) [optional] 
 
-
+<br>
+<br>
 
 # 🔎 Step by Step of the process
 ### 1. 📟 ESP32 Drivers
