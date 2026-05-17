@@ -22,7 +22,8 @@ This project, technically named "Signal Generator for Resilience Testing in 2.4 
 
 - ***Non-Commercial Use***: This content is open source and its use for the manufacture or sale of devices intended for the unlawful interference of signals is not authorized.
   
----
+<br>
+<br>
 
 ### ❓ How it works?
 
