@@ -35,7 +35,7 @@ Funcionality Diagram
 - Faraday cages
 - Authorized RF shielded environments
 
----
+<br>
 
 ### 🛡️ Mitigation and Resilience Strategies (Blue Teaming)
 This project can help engineers understand how to protect their devices against interference by using more robust Frequency Hopping Switches (FHSS).
