@@ -117,6 +117,8 @@ Some of these following components were used to carry out the project:
 <br>
 
 # 🔎 Step by Step of the process
+
+
 ### 1. 📟 ESP32 Drivers
 First, it is essential that a PC can recognize the ESP32 on its I/O ports. 
 - To do this, download the file named `CP210x Universal Windows Driver` from the following link: https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads
@@ -125,11 +127,19 @@ First, it is essential that a PC can recognize the ESP32 on its I/O ports.
 - In this option, click on the three dots, and then locate the extracted folder you downloaded from the provided link.
 - You should see a message indicating that the drivers were added correctly. To confirm, the ESP32 should appear in the `Other devices` or `Ports (COM & LPT)`, next to the port that our PC assigns to it
 
+<br>
+<br>
+
 ### 2. 🎏 There are 2 known versions of the project
 
 - 1️⃣ ***Complete Project*** --> Includes a selection menu (navigable with buttons that must be placed on the PCB) for Jamming for different objectives (Saturation tests in 802.11 protocols, Signal Analyzer, Interference analysis in IoT devices, among others), an action indicator LED (indicates when the device is performing a jamming action), also greater portability since it has a built-in lithium battery, and a PCB, where all the components of the device will be assembled.
 
+<br>
+
 - 2️⃣ ***Basic Project*** --> This project requires minimal materials for implementation. It lacks a target selection menu, so when activated, it affects the entire 2.4 GHz frequency within its range. It can be a fixed project (if implemented on a breadboard and PC) or a portable project (if you want to implement the same project on a PCB and portable battery; however, this will take longer due to the soldering and connections required for the PCB, unlike simply connecting wires on a breadboard). As an extra note, if you want the smallest possible BlueJammer device, the "portable quick-implementation project" device is the best option, as it is much smaller than the "complete project" device (because it includes a screen, buttons, etc.).
+
+<br>
+<br>
 
 ### 3. 📜 Components for the construction of the project, according to the version:
 
@@ -146,6 +156,7 @@ First, it is essential that a PC can recognize the ESP32 on its I/O ports.
     - `PC & USB cable` (to load the firmware and flash)
     - For testing --> `Protoboard` & `Jump Wires`
 
+<br>
 
 - 2️⃣ ***Basic Project***
     - `x2 nrf24L01 + Anthena`
@@ -154,6 +165,9 @@ First, it is essential that a PC can recognize the ESP32 on its I/O ports.
     - `Jump Wires`
     - `PC & USB cable` (for loading the firmware, flashing, and if we want to use it to power the ESP32)
     - `Battery output 3.3 V or 3.7 V (lithium or a portable one)` [optional]
+
+<br>
+<br>
 
 ### 4. 🛠️ Flash & Firmware
 
@@ -164,6 +178,9 @@ https://mega.nz/folder/OQpDnLgY#gKpLGsnu_np7O00hVTvWxg
 
 - 2️⃣ For the *Basic Project* version:
 https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
+
+<br>
+<br>
 
 ### 5. ⛓️‍💥 Connections
 
@@ -189,6 +206,8 @@ https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
       <p align="center">
       <img width="760" height="600" alt="image" src="https://github.com/user-attachments/assets/c7a51ea7-fc47-4d03-b2b8-3a622ed1e1b9" />
       </p>
+
+<br>
 
 - 👉 Once the pins and board models to be used have been established, the connections are made, according to the project version:
    - 1️⃣ For the *Complete Project* version
@@ -280,12 +299,15 @@ https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1
       | **GND** | GND |
 
 <br>
+<br>
 
 ### 📌 It should be noted, for both projects, that the effectiveness of the signal depends mainly on certain factors:
 - The range of our antennas (short, medium, long range)
 - Use 1 or 2 antennas (using more antennas increases noise and interference, so further studies are needed)
 - Physical obstacles in the signal path (walls, buildings, etc.)
 - Use of specific configurations to generate noise in certain spectra (affecting only certain devices, certain 2.4 GHz frequency channels, among others)
+
+<br>
 
 ### I hope you found this helpful and enjoyable. If so, leave a star ⭐ Best wishes and much success!
       
