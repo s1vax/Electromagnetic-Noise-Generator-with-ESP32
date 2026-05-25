@@ -87,9 +87,9 @@ Pocket Gone is a radio frequency diagnostic and hacking hardware device created 
 
 <br>
 
-- ***⚖️ El Aspecto Legal (La "Zona Gris")***
+- ***⚖️ The Legal Aspect (The "Gray Zone")***
 
-  El despliegue y uso de dispositivos como el Pocket Gone entra en un territorio legal sumamente delicado, lo que genera un constante debate ético en la comunidad de ciberseguridad y makers:
+  The deployment and use of devices like the Pocket Gone enters a highly sensitive legal territory, generating constant ethical debate within the cybersecurity and maker communities:
 
     - ***Regulaciones de Telecomunicaciones***: En Argentina (bajo el ENACOM) y en la mayoría de los países del mundo, la emisión deliberada de radiofrecuencia para interferir, bloquear o alterar las telecomunicaciones de terceros es completamente ilegal. Utilizarlo contra el parlante de otra persona sin su consentimiento constituye un delito federal.
 
