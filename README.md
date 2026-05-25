@@ -95,7 +95,7 @@ Pocket Gone is a radio frequency diagnostic and hacking hardware device created 
 
     - ***The Noise Pollution Argument***: The project's creator argues that the device occupies a social "gray area." While RF interference is illegal, there are also municipal ordinances against excessive noise and noise pollution (on beaches, in parks, and in buildings) that, in practice, are rarely enforced by the authorities. The device emerges as a form of vigilante justice in response to this inaction.
     
-    - ***Disclaimer Oficial***: Para protegerse de repercusiones legales, el sitio oficial de Pocket Gone advierte que es un proyecto educativo y de diagnóstico. Se especifica claramente que el Modo S de silenciamiento debe ser utilizado exclusivamente con parlantes propios, en un ámbito privado, y siempre respetando la legislación local vigente. La responsabilidad del uso recae enteramente en quien ensambla y opera el hardware.
+    - ***Official Disclaimer***: To protect itself from legal repercussions, the official Pocket Gone website warns that it is an educational and diagnostic project. It clearly specifies that the S-Mode mute function should only be used with the user's own speakers, in a private setting, and always in accordance with applicable local laws. Responsibility for its use rests entirely with the person who assembles and operates the hardware.
 
 <br>
 <br>
