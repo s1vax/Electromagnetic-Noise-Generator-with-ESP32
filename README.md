@@ -83,7 +83,7 @@ Pocket Gone is a radio frequency diagnostic and hacking hardware device created 
     
     - ***Spectral Selectivity***: Unlike a commercial jammer, Pocket Gone is programmed to leave a temporary "window" that allows other communications to recover. It does not jam 2.4 GHz or 5.8 GHz Wi-Fi networks and is completely harmless against systems operating on other frequencies (such as GPS at 1600 MHz, GSM cellular networks, or car key fobs at 433 MHz).
 
-    - ***Hardware y Ganancia***: El dispositivo es portátil (mide apenas 39x70x32mm) y se alimenta vía USB-C (5V). Para mejorar la directividad y el alcance del ataque, el proyecto documenta la creación de la "Peach Cantenna": una    antena direccional casera de bajo costo fabricada a partir de una lata de duraznos, ideal para enfocar la emisión hacia un objetivo específico.
+    - ***Hardware and Gain***: The device is portable (measuring just 39x70x32mm) and is powered via USB-C (5V). To improve the directivity and range of the attack, the project documents the creation of the "Peach Cantenna": a low-cost, homemade directional antenna made from a peach can, ideal for focusing the transmission towards a specific target.
 
 <br>
 
