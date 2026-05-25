@@ -69,8 +69,8 @@ Its objective is also to identify weaknesses in wireless protocols in order to i
 
 Pocket Gone is a radio frequency diagnostic and hacking hardware device created by Argentinian maker Ronnie Bandini. It originated as a portable evolution of his previous viral project, known as "Reggaetón Be Gone".
 
-  Oficialmente, se presenta como una "herramienta de diagnóstico para parlantes Bluetooth". Sin embargo, su notoriedad se debe a su Modo S (Silenciamiento), el cual le permite actuar como una contramedida electrónica        encubierta para interrumpir el streaming de audio de parlantes cercanos, pensado originalmente para combatir la contaminación sonora y los vecinos ruidosos.
-
+  Officially, it's presented as a "diagnostic tool for Bluetooth speakers." However, its notoriety stems from its S Mode (Mute), which allows it to act as a covert electronic countermeasure to interrupt audio streaming from nearby speakers, originally intended to combat noise pollution and noisy neighbors.
+  
   <br>
 
 - ***❓ ¿How it works?***
