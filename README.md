@@ -87,14 +87,14 @@ Pocket Gone is a radio frequency diagnostic and hacking hardware device created 
 
 <br>
 
-- ***⚖️ The Legal Aspect (The "Gray Zone")***
+- ***⚖️ The Legal Aspect (The "Gray Zone")*** 
 
   The deployment and use of devices like the Pocket Gone enters a highly sensitive legal territory, generating constant ethical debate within the cybersecurity and maker communities:
 
     - ***Telecommunications Regulations***: In Argentina (under the jurisdiction of ENACOM) and in most countries worldwide, the deliberate emission of radio frequencies to interfere with, block, or disrupt third-party telecommunications is completely illegal. Using it against another person's speaker without their consent constitutes a federal crime.
 
-    - ***El Argumento de la Contaminación Sonora***: El creador del proyecto argumenta que el dispositivo habita una "zona gris" social. Mientras que la interferencia de RF está penada, también existen ordenanzas municipales contra los ruidos molestos y la contaminación auditiva (en playas, parques y edificios) que, en la práctica, rara vez son controladas por las autoridades. El dispositivo surge como una respuesta de "justicia por mano propia" ante esta inacción.
-
+    - ***The Noise Pollution Argument***: The project's creator argues that the device occupies a social "gray area." While RF interference is illegal, there are also municipal ordinances against excessive noise and noise pollution (on beaches, in parks, and in buildings) that, in practice, are rarely enforced by the authorities. The device emerges as a form of vigilante justice in response to this inaction.
+    
     - ***Disclaimer Oficial***: Para protegerse de repercusiones legales, el sitio oficial de Pocket Gone advierte que es un proyecto educativo y de diagnóstico. Se especifica claramente que el Modo S de silenciamiento debe ser utilizado exclusivamente con parlantes propios, en un ámbito privado, y siempre respetando la legislación local vigente. La responsabilidad del uso recae enteramente en quien ensambla y opera el hardware.
 
 <br>
