@@ -91,7 +91,7 @@ Pocket Gone is a radio frequency diagnostic and hacking hardware device created 
 
   The deployment and use of devices like the Pocket Gone enters a highly sensitive legal territory, generating constant ethical debate within the cybersecurity and maker communities:
 
-    - ***Regulaciones de Telecomunicaciones***: En Argentina (bajo el ENACOM) y en la mayoría de los países del mundo, la emisión deliberada de radiofrecuencia para interferir, bloquear o alterar las telecomunicaciones de terceros es completamente ilegal. Utilizarlo contra el parlante de otra persona sin su consentimiento constituye un delito federal.
+    - ***Telecommunications Regulations***: In Argentina (under the jurisdiction of ENACOM) and in most countries worldwide, the deliberate emission of radio frequencies to interfere with, block, or disrupt third-party telecommunications is completely illegal. Using it against another person's speaker without their consent constitutes a federal crime.
 
     - ***El Argumento de la Contaminación Sonora***: El creador del proyecto argumenta que el dispositivo habita una "zona gris" social. Mientras que la interferencia de RF está penada, también existen ordenanzas municipales contra los ruidos molestos y la contaminación auditiva (en playas, parques y edificios) que, en la práctica, rara vez son controladas por las autoridades. El dispositivo surge como una respuesta de "justicia por mano propia" ante esta inacción.
 
