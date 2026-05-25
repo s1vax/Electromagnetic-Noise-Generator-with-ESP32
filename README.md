@@ -77,10 +77,9 @@ Pocket Gone is a radio frequency diagnostic and hacking hardware device created 
 
   On a technical level, Pocket Gone is not a traditional brute-force jammer that indiscriminately pollutes the entire electromagnetic spectrum. Instead, it performs a targeted attack on the limitations of the Bluetooth Classic protocol in the 2.4 GHz band.
 
-    - ***Reconocimiento y Diagnóstico***: El dispositivo escanea el entorno de radiofrecuencia identificando canales Bluetooth congestionados. Puede listar dispositivos cercanos en modo emparejamiento (pairing), capturando métricas   clave como el RSSI (fuerza de la señal), la dirección MAC y el nombre del hardware.
-
-    - ***Agotamiento de Canales (Modo S)***: Al activar el silenciamiento, el dispositivo explota la forma en que Bluetooth negocia el espectro. Genera la ilusión a nivel de red de que no existen canales disponibles para mantener     la transmisión, o sobrecarga la conexión con múltiples solicitudes, forzando al parlante a detener el flujo de audio.
-
+    - ***Recognition and Diagnosis***: The device scans the radio frequency environment, identifying congested Bluetooth channels. It can list nearby devices in pairing mode, capturing key metrics such as RSSI (signal strength), MAC address, and hardware name.
+    
+    - ***Channel Exhaustion (S-Mode)***: By activating mute, the device exploits how Bluetooth negotiates spectrum. It creates the illusion at the network level that no channels are available to maintain transmission, or it overloads the connection with multiple requests, forcing the speaker to stop the audio stream.
     - ***Selectividad Espectral***: A diferencia de un inhibidor comercial, Pocket Gone está programado para dejar una "ventana" temporal que permite la recuperación de otras comunicaciones. No inhibe las redes WiFi de 2.4 GHz ni     de 5.8 GHz, y es completamente inofensivo contra sistemas que operan en otras frecuencias (como GPS a 1600 MHz, redes celulares GSM o llaveros de automóviles a 433 MHz).
 
     - ***Hardware y Ganancia***: El dispositivo es portátil (mide apenas 39x70x32mm) y se alimenta vía USB-C (5V). Para mejorar la directividad y el alcance del ataque, el proyecto documenta la creación de la "Peach Cantenna": una    antena direccional casera de bajo costo fabricada a partir de una lata de duraznos, ideal para enfocar la emisión hacia un objetivo específico.
