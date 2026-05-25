@@ -75,7 +75,7 @@ Pocket Gone is a radio frequency diagnostic and hacking hardware device created 
 
 - ***❓ ¿How it works?***
 
-  On a technical level, Pocket Gone is not a traditional brute-force jammer that indiscriminately pollutes the entire electromagnetic spectrum. Instead, it performs a targeted attack on the limitations of the Bluetooth      Classic protocol in the 2.4 GHz band.
+  On a technical level, Pocket Gone is not a traditional brute-force jammer that indiscriminately pollutes the entire electromagnetic spectrum. Instead, it performs a targeted attack on the limitations of the Bluetooth Classic protocol in the 2.4 GHz band.
 
     - ***Reconocimiento y Diagnóstico***: El dispositivo escanea el entorno de radiofrecuencia identificando canales Bluetooth congestionados. Puede listar dispositivos cercanos en modo emparejamiento (pairing), capturando métricas   clave como el RSSI (fuerza de la señal), la dirección MAC y el nombre del hardware.
 
